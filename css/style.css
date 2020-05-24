@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+header{
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.animation{
+    opacity: 0;
+}
+.secondary{
+    background-color: deepskyblue;
+    transition: all 0.5s ease-in;
+}
+ul{
+    list-style: none;
+
+}
+ul li{
+    display: inline-block;
+}
+header nav{
+    float: right;
+}
+.logo img{
+    margin-top: 30px;
+}
+header a .logo{
+    float:left;
+}
+header nav ul li a{
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    transition: all 0.5s ease-in;
+    text-decoration: none;
+    font-family: tahoma;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header nav ul li a:hover,
+header nav ul li a:focus{
+    color: deepskyblue;
+    text-decoration: none;
+
+}
+.slider,.slider ul, .slider ul li{
+    height: 800px;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+.slider h2{
+    font-weight: bold;
+    margin-top: 270px;
+    font-family: tahoma;
+    font-size: 35px;
+    letter-spacing: 2px;
+
+}
+.slider span{
+    color: orange;
+    font-family: tahoma;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.slider a{
+    padding: 10px 50px;
+    margin-right: 10px;
+    font-family: tahoma;
+    text-transform: uppercase;
+}
+.slider a.btn-half{
+    background-color: deepskyblue;
+    color: white;
+    transition:0.5s ease-in;
+}
+.slider a.btn-half:hover{
+    background-color: dodgerblue;
+}
+.slider a.btn-full{
+    background-color: orange;
+    color: white;
+    transition: 0.5s ease-in;
+}
+.slider a.btn-full:hover{
+    background-color: orangered;}
+
+    .img1{
+        background-image: url(../image/n2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .img2{
+        background-image:url(../image/n4.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .img3{
+        background-image:url(../image/n5.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .slider i{
+        font-size: 35px;
+        margin-right: 10px;
+    }
